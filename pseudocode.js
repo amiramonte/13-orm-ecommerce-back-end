@@ -1,6 +1,3 @@
-// set .env file with necessary info
-// connect .env file with connection.js file in config folder
-// make sure connection.js file has all boiler plate information needed - compare to miniproject
 // 
 // check server.js file
     // make sure all imports are there
