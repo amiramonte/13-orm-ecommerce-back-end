@@ -1,16 +1,16 @@
 // 
-// check server.js file
-    // make sure all imports are there
-    // test server is listening
-    // make sure has necessary boiler plate code compared to miniproject
-    // sync sequelize models to the database and test server response
+// 
+// 
+// 
+// 
+// 
 // 
 // Build Models
-    // category.js model - refer to README
     // product.js model - refer to README
     // producttag.js model - refer to README
     // tag.js model - refer to README
     // make sure all are properly imported to the index.js file under models folder
+    // mysql describe all tables to make sure everything shows up
 // 
 // Make sure seeds folder and seeds files are properly importing everything from Models folder
 // 
