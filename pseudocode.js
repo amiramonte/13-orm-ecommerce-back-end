@@ -1,6 +1,3 @@
-// npm i 
-    // will need Mysql2, sequelize, dotenv
-// set db folder and schema.sql file
 // set .env file with necessary info
 // connect .env file with connection.js file in config folder
 // make sure connection.js file has all boiler plate information needed - compare to miniproject
