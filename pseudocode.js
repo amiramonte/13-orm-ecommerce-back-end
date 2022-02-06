@@ -6,9 +6,6 @@
 // 
 // 
 // Build Models
-    // product.js model - refer to README
-    // producttag.js model - refer to README
-    // tag.js model - refer to README
     // make sure all are properly imported to the index.js file under models folder
     // mysql describe all tables to make sure everything shows up
 // 
