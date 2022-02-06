@@ -5,9 +5,6 @@
 // 
 // 
 // 
-// Build Models
-    // make sure all are properly imported to the index.js file under models folder
-    // mysql describe all tables to make sure everything shows up
 // 
 // Make sure seeds folder and seeds files are properly importing everything from Models folder
 // 
