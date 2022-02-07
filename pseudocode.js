@@ -6,16 +6,9 @@
 // 
 // 
 // 
-// Make sure seeds folder and seeds files are properly importing everything from Models folder
 // 
-// build and seed tables
-// mysql in terminal 
-    // select all on each table to make sure they are all there
 // 
-// build connections between all tables in index.js file in models folder
 // 
-// mysql in terminal 
-    // make sure tables are linking properly
 // 
 // Write Category routes 
     // test in insomnia
@@ -34,15 +27,12 @@
 // README completion
 // 
 // 
-// 
-// 
-// create walkthrough video 
-    // link on README
-    // submit walkthrough video link on bootcampspot
-// 
-// 
-// 
-// 
+// deploy to heroku
+    // make sure to run commands and seed information on heroku and test it
+    // 
+    // 
+    // 
+    // 
 // 
 // 
 // 
