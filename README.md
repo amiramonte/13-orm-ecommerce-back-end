@@ -3,9 +3,8 @@
 ## Table of contents
 
 - [Description](#description)
+- [Deployed Website](#deployed-website)
 - [Technologies](#technologies)
-- [Deployed Website](#screen-shot)
-- [Functionality](#functionality)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
@@ -43,10 +42,8 @@ Project is created with:
 - [Bootstrap](https://getbootstrap.com/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
+- [Sequelize ORM](https://sequelize.org/)
 
-
-## Functionality
-![gif demonstrating functionality of Note Taker App](./images/functionality_demonstration_note_taker.gif)
 
 ---
 
