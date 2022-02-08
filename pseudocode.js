@@ -1,29 +1,4 @@
 // 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// Write Category routes 
-    // test in insomnia
-// 
-// Write product routes
-    // test in insomnia
-// 
-// Write tag routes
-    // test in insomnia
-// 
-// 
-// 
-// 
-// 
-// 
 // README completion
 // 
 // 
