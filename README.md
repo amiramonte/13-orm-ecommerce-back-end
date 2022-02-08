@@ -50,12 +50,16 @@ Project is created with:
 ## Deployment
 
 - Copy the repository from Github
-- On your local machine, through your terminal, navigate to the folder you would like to store this repo in
-- git clone the repo into that folder
+- Navigate to the folder you would like to store this repo in on your local machine
+- git clone the repo into your preferred folder
 - open the repo in your preferred source code editor 
-- In your terminal, type `npm i`
-- Once the appropriate packages have downloaded, initialize the program by navigating to your terminal and typing in `node server.js`
-- Once you receive a response that the server is operational, you can navigate to http://localhost:3005/ on your browser to use the code locally
+- In your terminal or command line interface, type `npm i`
+- Once the appropriate packages have downloaded, initialize the program by navigating to your terminal and typing in `node server.js` or `npm start`
+- Once you receive a response that the server is operational in your terminal or command line interface, you can navigate to http://localhost:3001/ on your browser to use the code locally
+- Use the following URLs to view the seeded data:
+  - `http://localhost:3001/api/categories`
+  - `http://localhost:3001/api/products`
+  - `http://localhost:3001/api/tags` 
 
 ---
 
