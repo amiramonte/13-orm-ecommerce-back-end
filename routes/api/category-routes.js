@@ -3,35 +3,69 @@ const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
 
+// GET route to find all categories and their associated products
 router.get('/', async (req, res) => {
-  // find all categories
-  // be sure to include its associated Products
   try {
     const categoryData = await Category.findAll({
       include: [Product]
     })
     return res.status(200).json(categoryData)
   } catch (error) {
-    return res.status(500).json(error)
+      return res.status(400).json(error)
   }
 
 });
 
-router.get('/:id', (req, res) => {
-  // find one category by its `id` value
-  // be sure to include its associated Products
+// GET route to get single category and its associated product
+router.get('/:id', async (req, res) => {
+  try {
+    const categoryData = await Category.findByPk(req.params.id, {
+      include: [Product]
+    })
+    return res.status(200).json(categoryData)
+  } catch (error) {
+      return res.status(400).json(error)
+  }
+
 });
 
-router.post('/', (req, res) => {
-  // create a new category
+// POST route to create a new category
+router.post('/', async (req, res) => {
+  try {
+    const categoryData = await Category.create(req.body)
+    return res.status(200).json(categoryData)
+
+  } catch (error) {
+    return res.status(400).json(error);
+  }
 });
 
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
+// PUT route to update a category by its `id` value from the URL
+router.put('/:id', async (req, res) => {
+  try {
+    const categoryData = await Category.update(req.body, {
+      where: {
+        id: req.params.id
+      }
+    })
+    return res.status(200).json(categoryData)
+  } catch (error) {
+    return res.status(400).json(error)
+  }
 });
 
-router.delete('/:id', (req, res) => {
-  // delete a category by its `id` value
+// DELETE route to delete a category by its `id` value in the URL
+router.delete('/:id', async(req, res) => {
+  try {
+    const categoryData = await Category.destroy({
+      where: {
+        id: req.params.id
+      }
+    })
+    return res.status(200).json(categoryData)
+  } catch (error) {
+    return res.status(400).json(error)
+  }
 });
 
 module.exports = router;
