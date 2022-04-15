@@ -3,9 +3,10 @@
 ## Table of contents
 
 - [Description](#description)
-- [Deployed Website](#deployed-website)
+- [Functionality](#functionality)
+- [Deployed Application](#deployed-application)
 - [Technologies](#technologies)
-- [Deployment](#deployment)
+- [Installation](#installation)
 - [Credits](#credits)
 
 ---
@@ -27,7 +28,7 @@ This project was built to help reinforce the following skills:
 ---
 
 
-## Deployed Website
+## Deployed Application
 
 - [Heroku Deployed E-Commerce Back End](https://serene-beach-57426.herokuapp.com/)
 
@@ -47,7 +48,7 @@ Project is created with:
 
 ---
 
-## Deployment
+## Installation
 
 - Copy the repository from Github
 - Navigate to the folder you would like to store this repo in on your local machine
