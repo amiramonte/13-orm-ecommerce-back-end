@@ -28,6 +28,13 @@ This project was built to help reinforce the following skills:
 ---
 
 
+## Functionality 
+
+
+
+---
+
+
 ## Deployed Application
 
 - [Heroku Deployed E-Commerce Back End](https://serene-beach-57426.herokuapp.com/)
@@ -40,9 +47,11 @@ This project was built to help reinforce the following skills:
 Project is created with:
 
 - [JavaScript](https://www.javascript.com/)
-- [Bootstrap](https://getbootstrap.com/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [MySQL](https://www.mysql.com/)
+- [Node MySQL2](https://www.npmjs.com/package/mysql2)
 - [Sequelize ORM](https://sequelize.org/)
 
 
