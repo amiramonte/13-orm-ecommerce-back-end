@@ -31,7 +31,7 @@ This project was built to help reinforce the following skills:
 ## Functionality 
 
 
-
+![Demonstration of back end routes](./assets/orm_ecommerce_back_end.gif)
 
 
 ---
