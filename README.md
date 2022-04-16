@@ -13,17 +13,7 @@
 
 ## Description
 
-This project was built to help reinforce the following skills:
-
-- Node.js
-- Express.js
-- Sequelize ORM
-- MySQL
-- Routing
-- Object destructuring
-- Exporting and Importing
-- File directory Management
-- Heroku Deployment
+This E-Commerce API was built to continue my understanding of back end development and deployment to Heroku. This E-Commerce API was built with MySQL and Sequelize ORM. It includes back end API routes, data models, API routes, and .env file usage.
 
 ---
 
