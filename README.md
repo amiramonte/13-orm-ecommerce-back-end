@@ -13,7 +13,7 @@
 
 ## Description
 
-This E-Commerce API was built to continue my understanding of back end development and deployment to Heroku. This E-Commerce API was built with MySQL and Sequelize ORM. It includes back end API routes, data models, API routes, and .env file usage.
+This E-Commerce API was built to continue my understanding of back end development and deployment to Heroku. This E-Commerce API was built with MySQL and Sequelize ORM. It includes back end API routes, data models, seed data, and .env file usage.
 
 ---
 
